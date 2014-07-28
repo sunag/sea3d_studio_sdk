@@ -26,7 +26,7 @@ Free cross-platform 3D IDE for games.
 
 --
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/lQ-VIni5Q68/0.jpg)](http://www.youtube.com/watch?v=lQ-VIni5Q68)
+[![SEA3D Studio](http://img.youtube.com/vi/lQ-VIni5Q68/0.jpg)](http://www.youtube.com/watch?v=lQ-VIni5Q68)
 
 **Join now** http://sea3d.poonya.com/studio/
 
