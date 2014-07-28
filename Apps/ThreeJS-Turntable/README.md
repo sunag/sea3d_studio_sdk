@@ -1,7 +1,7 @@
 Three.JS Turntable Generator
 ==
 
-Inside __SEA3D Studio__ click in __App -> Load From File__ and select __Main.swf__. Your turntable will be created in a zip file.
+Inside __SEA3D Studio__ click in __App -> Load From File__ and select __bin\Main.swf__. Your turntable will be created in a zip file.
 
 [Download App](https://github.com/sunag/sea3d_studio_sdk/raw/master/Apps/ThreeJS-Turntable/bin/Main.swf)
 
