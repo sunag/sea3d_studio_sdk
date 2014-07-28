@@ -20,6 +20,7 @@ package sunag.sea3d.studio
 		public static function get Animation():Class { return UI.scope.AnimationAsset; };
 		public static function get AnimationBase():Class { return UI.scope.AnimationBaseAsset; };
 		public static function get SkeletonAnimation():Class { return UI.scope.SkeletonAnimationAsset; };
+		public static function get Camera():Class { return UI.scope.CameraAsset; };
 		
 		public static function get FieldObject():Class { return UI.scope.FieldObject; };
 		public static function get FieldType():Class { return UI.scope.FieldType; };

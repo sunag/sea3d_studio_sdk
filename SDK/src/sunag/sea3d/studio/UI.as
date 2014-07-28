@@ -19,6 +19,7 @@ package sunag.sea3d.studio
 		
 		public static function createWindow(title:String, id:String=null):Object { return new scope.Window( app, title, id ); };
 		
+		public static function get SaveFile():Class { return scope.SaveFile; };
 		public static function get OpenFile():Class { return scope.OpenFile; };
 		
 		public static function get Table():Class { return scope.Table; };
