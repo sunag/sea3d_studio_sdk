@@ -1,4 +1,4 @@
-ANM-JSON Sequencer
+Three.JS Turntable Generator
 ==
 
 Inside __SEA3D Studio__ click in __App -> Load From File__ and select __bin\Main.swf__. Your turntable will be created in a zip file.
