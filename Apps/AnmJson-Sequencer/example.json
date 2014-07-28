@@ -1,0 +1,5 @@
+{ "split" : [
+	{ "name" : "anm1", "start" :  0 , "end" : 35, "repeat" : true, "intrpl" : true },
+	{ "name" : "anm2", "start" : 30 , "end" : 65, "repeat" : true, "intrpl" : true },
+	{ "name" : "anm3", "start" : 50 , "end" : 100, "repeat" : true, "intrpl" : true }	
+] }
