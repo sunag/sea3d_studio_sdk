@@ -34,6 +34,6 @@ Free cross-platform 3D IDE for games.
 
 **YouTube** https://www.youtube.com/watch?v=lQ-VIni5Q68
 
-**SEA3D Platform** https://github.com/sunag/sea3d
+**SEA3D** https://github.com/sunag/sea3d
 
 Copyright © Sunag Entertainment
