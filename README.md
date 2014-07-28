@@ -3,7 +3,7 @@
 SEA3D Studio SDK
 ==
 
-An open-source cross-platform file format for games.
+Free cross-platform 3D IDE for games. 
 
 **List of Features**
 

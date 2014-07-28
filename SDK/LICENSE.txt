@@ -1,9 +1,3 @@
-ANM-JSON Sequencer
-==
-
-Inside SEA3D Studio click in __App -> Load From File__ and select __split_anm.js__. Select a animation in Assets Explorer and click in Load JSON. There is an example included in the file.
-
---
 The MIT License (MIT)
 
 Copyright (c) Sunag Entertainment - http://www.sunag.com.br/
