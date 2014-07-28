@@ -1,7 +1,17 @@
 ANM-JSON Sequencer
 ==
 
-Inside SEA3D Studio click in __App -> Load From File__ and select __split_anm.js__. Select a animation in __Assets Explorer__ and click in __Load JSON__. There is an example included in the file.
+Inside SEA3D Studio click in __App -> Load From File__ and select __split_anm.js__. Select a animation in __Assets Explorer__ and click in __Load JSON__.
+
+Example
+------
+```
+{ "split" : [
+  { "name" : "anm1", "start" : 0 , "end" : 35, "repeat" : true, "intrpl" : true },
+  { "name" : "anm2", "start" : 30 , "end" : 65, "repeat" : true, "intrpl" : true },
+  { "name" : "anm3", "start" : 50 , "end" : 100, "repeat" : true, "intrpl" : true }	
+] }
+```
 
 --
 The MIT License (MIT)
