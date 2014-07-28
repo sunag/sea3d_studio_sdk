@@ -24,9 +24,7 @@ Free cross-platform 3D IDE for games.
 * Transparent Materials
 * Binary format
 
-SEA3D Studio 1.1 Viva!
 --
-Free cross-platform 3D IDE for games.
 
 **Join now** http://sea3d.poonya.com/studio/
 
