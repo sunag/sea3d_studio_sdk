@@ -41,14 +41,14 @@ btn.addEventListener(Event.COMPLETE, function(e:Event):void
 		return;
 	}
 	
-	var open = new UI.OpenFile();
-	open.addFilter( "TEXT (*.txt)", "*.txt;" );
-	open.addFilter( "JSON (*.json)", "*.json;" );
-	open.addEventListener(Event.COMPLETE, function(e:Event):void
+	var opener = new UI.OpenFile();
+	opener.addFilter( "TEXT (*.txt)", "*.txt;" );
+	opener.addFilter( "JSON (*.json)", "*.json;" );
+	opener.addEventListener(Event.COMPLETE, function(e:Event):void
 	{
-		if (open.data)
+		if (opener.file)
 		{
-			var json:String = open.data.toString().replace(/(\n|\r\n|\t)/g, ' ');			
+			var json:String = opener.file.data.toString().replace(/(\n|\r\n|\t)/g, ' ');			
 			var seqs:Array = JSON.parse( json ).split;
 			var sequences:Array = [];
 			
@@ -64,7 +64,7 @@ btn.addEventListener(Event.COMPLETE, function(e:Event):void
 			this.sequences.fromArray( sequences );
 		}				
 	});
-	open.browse();
+	opener.browse();
 });
 
 // RESIZE EVENT
