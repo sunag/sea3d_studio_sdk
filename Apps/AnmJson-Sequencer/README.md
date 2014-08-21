@@ -3,7 +3,7 @@ ANM-JSON Sequencer
 
 Create a animation sequence from json file.
 
-Inside [SEA3D Studio](http://sea3d.poonya.com/studio) click in __App -> Load From File__ and select __split_anm.js__. Select a animation in __Assets Explorer__ and click in __Load JSON__ or past on __Console Editor__.
+Inside [SEA3D Studio](http://sea3d.poonya.com/studio) click in __App -> Load From File__ and select __split_anm.js__. Select a animation in __Assets Explorer__ and click in __Load JSON__ or past in the __Console Editor__.
 
 [Download App](https://raw.githubusercontent.com/sunag/sea3d_studio_sdk/master/Apps/AnmJson-Sequencer/split_anm.js)
 
