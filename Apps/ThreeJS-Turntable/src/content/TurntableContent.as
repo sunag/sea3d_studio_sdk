@@ -100,12 +100,12 @@ package content
 					
 					Api.confirm("File saved successfully.\nClick OK to continue.", function():void
 					{
-						new UI.SaveFile("turntable.zip", zipOut.byteArray).browse();
+						new UI.SaveFile( new UI.FileIO( "turntable.zip", zipOut.byteArray ) ).browse();
 					});
 				}
 				else
 				{
-					Api.alert("There was an error saving tour file.");
+					Api.alert("There was an error saving the file.");
 				}
 			}, 
 				config
