@@ -1,0 +1,1 @@
+const app = window.sea3d = {};

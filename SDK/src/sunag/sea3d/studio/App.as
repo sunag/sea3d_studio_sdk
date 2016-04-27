@@ -10,33 +10,23 @@ package sunag.sea3d.studio
 	
 	public class App extends Sprite
 	{
+		sunag static var scope:*;
+		sunag static var app:*;
+		sunag static var dependenciesApp:Object;
+		
 		protected var _user:String;
 		protected var _name:String;
 		protected var _version:uint;
-		protected var _references:Array;
+		protected var _dependencies:Array;
 		
-		public function App(user:String, name:String, version:uint, references:Array=null)
+		public function App(user:String, name:String, version:uint, dependencies:Array=null)
 		{
 			_user = user;
 			_name = name;
 			_version = version;
-			_references = references || [];
+			_dependencies = dependencies || [];
 		}			
-				
-		public function $(args:Object):void
-		{
-			UI.app = this;
-			UI.scope = args.scope;	
-			UI.references = args.references;
 			
-			dispatchEvent( new Event(Event.COMPLETE) );
-		}
-		
-		public function getApp(ns:String):*
-		{
-			return UI.references[ns];
-		}
-		
 		public function get ns():String
 		{
 			return _user + '.' + _name;
@@ -67,9 +57,15 @@ package sunag.sea3d.studio
 			return _version;
 		}
 		
-		public function get references():Array
+		public function get dependencies():Array
 		{
-			return _references;
+			return _dependencies;
+		}
+		
+		public static function $(args:Object):void
+		{
+			app = args.app;
+			scope = args.scope;
 		}
 	}
 }

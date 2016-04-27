@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<title>App Test</title>
+<meta charset="utf-8">
+<style>
+body { 
+	font-family: Monospace; 
+	background-color: #333; 
+	color: #fff; 
+	margin: 0px; 
+	overflow: hidden; 
+}
+</style>
+</head>
+<body>
+<div>NW.JS App</div>
+<script src="sea3d.app.js"></script>
+<script>
+
+const nwgui = require('nw.gui');
+const win = nwgui.Window.get();
+
+win.show();
+win.focus();
+//win.showDevTools();
+
+app.callme = function( text ) {
+
+	return "nwjs: " + text;
+
+}
+
+</script>
+</body>
+</html>

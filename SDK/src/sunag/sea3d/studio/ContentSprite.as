@@ -35,7 +35,7 @@ package sunag.sea3d.studio
 		{
 			if (_width == int(value)) return;
 			_width = int(value);
-			if (onResize) onResize();
+			if (onResize != null) onResize();
 		}
 		
 		public override function get width():Number
@@ -47,7 +47,7 @@ package sunag.sea3d.studio
 		{
 			if (_height == int(value)) return;
 			_height = int(value);
-			if (onResize) onResize();
+			if (onResize != null) onResize();
 		}
 		
 		public override function get height():Number
